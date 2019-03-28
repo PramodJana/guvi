@@ -8,6 +8,7 @@ class numword
 		String str=kb.nextLine();
 		int len=str.length();
 		int count=0;
+		if(len<=1000){
 		for(int i=0;i<len;i++)
 		{
 			if(str.charAt(i)==' ')
@@ -16,5 +17,5 @@ class numword
 			}
 		}
 		System.out.println(count+1);
-	}
+	}}
 }
