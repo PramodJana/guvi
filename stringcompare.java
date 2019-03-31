@@ -9,6 +9,8 @@ class stringcompare
 		int len=str.length();
 		String str1=kb.next();
 		int len1=str1.length();
+		if(len1<1001&&len<1001)
+		{
 		if(len>len1)
 		{
 			System.out.println(str);
@@ -16,6 +18,7 @@ class stringcompare
 		else
 		{
 			System.out.println(str1);
+		}
 		}
 	}
 }
